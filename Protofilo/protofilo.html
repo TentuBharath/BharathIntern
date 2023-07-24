@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Protofilo.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="overlay">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Bharath Tentu, Student of Chaitanya Engineering college</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>
+          I am 3rd year Computer Engineering Student at Chaitanya Engineering
+          Colllege. My Highest qualification is Diploma Computer Science which
+          is completed at Mrs.A.V.N Polytechnic College.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h1>Projects</h1>
+        <div class="project">
+          <h3>1.CandidateSearch WebPage</h3>
+          <p>
+            In this web page search the candidates in the
+            school/college/company.
+          </p>
+          <img class="photo" src="Candidate Search.png" alt="project 1" />
+        </div>
+        <div class="project">
+          <h3>2.Home Page</h3>
+          <p>This web page is the Home Page of website.</p>
+          <img class="photo" src="EfficientRecruit.png" alt="project 2" />
+        </div>
+        <div class="project">
+          <h3>3.Login Page</h3>
+          <p>This web page is the Login page of website.</p>
+          <img class="photo" src="Login.png" alt="project 3" />
+        </div>
+        <div class="project">
+          <h3>4.Registration Page</h3>
+          <p>This web page is the Registration Page of website.</p>
+          <img class="photo" src="Registration.png" alt="project 4" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <form action="#">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

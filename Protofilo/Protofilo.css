@@ -1,0 +1,189 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.photo {
+  width: 15cm;
+  padding: 1cm;
+  padding-left: auto;
+  max-width: auto;
+  margin-left: 30%;
+  border-radius: 2cm;
+  box-shadow: 10px 11px 10px rgba(0, 0, 0, 1.8);
+}
+
+.container {
+  max-width: 5000px;
+  padding: 100px;
+  background-color: #f7e6c4;
+  padding: 1cm;
+}
+
+.container h1 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 200%;
+  padding: 1cm;
+}
+
+.container p {
+  font-size: 150%;
+  left: 100cm;
+  padding: 0.5cm;
+  padding-left: 3cm;
+  padding-right: 1cm;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #aaa;
+}
+
+/* Home section styles */
+#home {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  background-image: url("IMG_1210.JPG");
+  background-size: cover;
+  background-position-x: 5%;
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(51, 51, 33, 0.7);
+  padding: 30px;
+  margin-left: 70px;
+  text-align: right;
+  color: #fff;
+  border-radius: 1cm;
+  box-shadow: 10px 11px 10px rgba(0, 0, 0, 1.8);
+}
+
+.overlay h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.overlay p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Contact section styles */
+section#contact {
+  background-color: #fff;
+}
+
+section#contact form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+section#contact label {
+  font-weight: bold;
+  margin-left: 9cm;
+  font-size: 130%;
+}
+
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 0.5cm;
+}
+
+section#contact input[type="submit"] {
+  width: 5cm;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #aaa;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border-radius: 1cm;
+}
+
+section#contact input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
