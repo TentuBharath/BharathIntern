@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body,
 h1,
 h2,
@@ -11,7 +10,6 @@ form {
   padding: 0;
 }
 
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -64,7 +62,6 @@ a {
   color: #333;
 }
 
-/* Header styles */
 header {
   background-color: #333;
   padding: 20px;
@@ -90,7 +87,6 @@ nav ul li a:hover {
   color: #aaa;
 }
 
-/* Home section styles */
 #home {
   height: 95vh;
   display: flex;
@@ -137,7 +133,6 @@ nav ul li a:hover {
   background-color: #ddd;
 }
 
-/* Contact section styles */
 section#contact {
   background-color: #fff;
 }
@@ -180,7 +175,6 @@ section#contact input[type="submit"]:hover {
   background-color: #555;
 }
 
-/* Footer styles */
 footer {
   background-color: #333;
   padding: 20px;
