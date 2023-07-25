@@ -1,0 +1,63 @@
+body {
+    margin-top: 3.5cm;
+    margin-left: 4.5cm;
+    padding: 1cm;
+    padding-left: 11cm;
+    padding-right: 10cm;
+    background-color: #0B666A;
+}
+.Converter {
+    width: 12cm;
+    height: 10cm;
+    padding-top: 1.5cm;
+    background-color: #35A29F;
+    border-radius: 1.5cm;
+    box-shadow: -0.1px -0.1px 50px -11px rgba(10, 10, 10, 10.8);
+}
+.Converter:hover {
+    background-color: #45d0c7;
+}
+.Converter h1 {
+    text-align: center;
+    width: 9cm;
+    background-color: #97FEED;
+    margin-left: 0.6cm;
+    border-radius: 0.3cm;
+    box-shadow: -0.1px 0.1px 20px -3px rgba(90, 10, 1, 10.8);
+}
+.Converter label {
+    font-size: 0.5cm;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: left;
+    padding: 2cm;
+}
+.Converter input {
+    margin: 3px;
+    margin-left: 2cm;
+    padding: 50px;
+    font-size: 100%;
+    width: 6cm;
+    padding: 0.2cm;
+    border: #D4E2D4;
+    border-radius: 0.3cm;
+}
+.Converter button:hover {
+    background-color: #35A29F;
+    color: rgb(98, 249, 198);
+}
+.Converter button {
+    margin: 15px;
+    margin-left: 3.25cm;
+    padding: 0.3cm;
+    border: #D4E2D4;
+    background-color: #8CC0DE;
+    border-radius: 1cm;
+    box-shadow: -0.1px -0.1px 30px -3px rgba(10, 10, 10, 10.8);
+    cursor: pointer;
+}
+.Converter p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
