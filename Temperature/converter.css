@@ -21,7 +21,7 @@ body {
     text-align: center;
     width: 9cm;
     background-color: #97FEED;
-    margin-left: 0.6cm;
+    margin-left: 1.5cm;
     border-radius: 0.3cm;
     box-shadow: -0.1px 0.1px 20px -3px rgba(90, 10, 1, 10.8);
 }
@@ -30,11 +30,11 @@ body {
     font-weight: bolder;
     font-style: oblique;
     text-align: left;
-    padding: 2cm;
+    padding: 3cm;
 }
 .Converter input {
     margin: 3px;
-    margin-left: 2cm;
+    margin-left: 3cm;
     padding: 50px;
     font-size: 100%;
     width: 6cm;
@@ -48,7 +48,7 @@ body {
 }
 .Converter button {
     margin: 15px;
-    margin-left: 3.25cm;
+    margin-left: 4cm;
     padding: 0.3cm;
     border: #D4E2D4;
     background-color: #8CC0DE;
